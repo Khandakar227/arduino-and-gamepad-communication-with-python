@@ -26,7 +26,7 @@ while True:
 
         if event.type == JOYBUTTONDOWN:
             btn = 1 if joystick.get_button(0) else 2 if joystick.get_button(1) else 3 if joystick.get_button(2) else 4 if joystick.get_button(
-                3) else 5 if joystick.get_button(4) else 6 if joystick.get_button(5) else 7 if joystick.get_button(6) else 8 if joystick.get_button(7) else 0
+                3) else 5 if joystick.get_button(4) else 6 if joystick.get_button(5) else 7 if joystick.get_button(6) else 8 if joystick.get_button(7) else 9 if joystick.get_button(9) else 0
 
         if event.type == JOYBUTTONUP:
             btn = 0
@@ -38,7 +38,7 @@ while True:
         data = f"{btn},{left_thumb_x},{left_thumb_y},{right_thumb_x},{right_thumb_y}\n"
 
         socket.send(data)
-        print("Data sent..", asctime(localtime()))
+        print(data)
 
 # Axis 0 = left thumb x, -1 to top and 1 to bottom
 # Axis 1 = left thumb y, -1 to top and 1 to bottom
