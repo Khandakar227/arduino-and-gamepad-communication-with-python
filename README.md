@@ -11,8 +11,13 @@ You need to have a **python interpreter** and **arduino IDE** installed on your 
 
 ## Steps:
 
-1. Open `bt.py`. Add your bluetooth module's MAC address to bd_addr variable.
+1. Run *source bin/activate* to initialize virtual environment.
 
+```
+source bin/activate
+```
+
+Open `bt.py`. Add your bluetooth module's MAC address to bd_addr variable.
 ```py
 bd_addr = "YOUR BLUETOOTH MODULE'S MAC ADDRESS"
 ```
