@@ -41,4 +41,4 @@ If you have any suggestions or issues feel free to open an issue.
 
 ## Contact
 
-If you face any problem or have any query feel free to contact me.
+If you face any problem or have any query feel free to contact me through social media.
